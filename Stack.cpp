@@ -88,7 +88,14 @@ int main()
         cout << "enter youre choice: ";
         cin >> choice;
 
- 
+        switch (choice)
+        {
+            case 1:
+                cout << "Enter Youre Value to push: ";
+                cin >> value;
+                stack.push(value);
+                break;
+    
     }
     return 0;
 }
