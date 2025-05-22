@@ -37,4 +37,16 @@ public:
         return value;
     }
 
+    void pop()
+    {
+        if (isEmpty())
+        {
+            cout << "Stack Is empty" << endl;
+        }
+
+        node *temp = top;
+        top = top->next;
+        cout << "Popped value: " << top->date << endl;
+    }
+
 };
