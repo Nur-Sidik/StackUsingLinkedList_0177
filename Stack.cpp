@@ -14,3 +14,11 @@ public:
         next = NULL;
     }
 };
+
+// stack class
+class stack
+{
+private:
+    node *top; // Pointer to the top node of the stack
+
+};
