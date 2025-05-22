@@ -49,4 +49,22 @@ public:
         cout << "Popped value: " << top->date << endl;
     }
 
+    void peek() {
+        if (top == NULL)
+        {
+            cout << "List Is Empty." << endl;
+        }
+        else
+        {
+            node *current = top;
+            while (current != NULL)
+            {
+                cout << current->date << " " << endl;
+                current = current->next;
+            }
+            cout << endl;
+        }
+    }
+
+
 };
